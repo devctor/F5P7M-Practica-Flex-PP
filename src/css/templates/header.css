@@ -1,0 +1,17 @@
+/* @import url("../components/ui/colors.css"); */
+
+header {
+  padding: var(--p-1) var(--p-2);
+  color: var(--white);
+  background: var(--black);
+}
+
+header nav {
+}
+
+
+@media(width < 720px) {
+  ul img {
+    display: none;
+  }
+}
