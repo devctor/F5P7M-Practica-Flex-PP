@@ -1,0 +1,28 @@
+.card-list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: space-evenly;
+  margin: calc(var(--p-1));
+}
+
+.card-list article {
+  max-width: 300px;
+  padding: var(--p-2);
+  border: 3px solid var(--white);
+}
+
+.card-list article > * + * {
+  margin-top: 2rem;
+}
+
+.card-list article a:last-child {
+  display: block;
+  color: var(--ocean);
+  font-weight: 600;
+}
+
+.card-list article a:last-child:hover {
+  color: var(--orange);
+}
+

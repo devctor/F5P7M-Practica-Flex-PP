@@ -1,0 +1,6 @@
+
+button[data-variant="bare"] {
+  background-color: transparent;
+  border: none;
+  appearance: none;
+}

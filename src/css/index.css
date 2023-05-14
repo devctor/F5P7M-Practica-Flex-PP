@@ -3,6 +3,9 @@
 @import url("../css/components/atoms/colors.css");
 @import url("../css/components/atoms/spacing.css");
 @import url("../css/components/atoms/text.css");
+@import url("../css/components/atoms/buttons.css");
+@import url("../css/components/molecules/navigation.css");
+@import url("../css/components/molecules/cards.css");
 @import url("../css/templates/header.css");
 @import url("../css/templates/main.css");
 @import url("../css/templates/footer.css");

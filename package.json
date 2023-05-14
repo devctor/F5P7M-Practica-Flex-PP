@@ -6,24 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "start": "npm run pl:serve",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@playwright/test": "^1.33.0",
-    "@storybook/addon-essentials": "^7.0.8",
-    "@storybook/addon-interactions": "^7.0.8",
-    "@storybook/addon-links": "^7.0.8",
-    "@storybook/addon-viewport": "^7.0.8",
-    "@storybook/blocks": "^7.0.8",
-    "@storybook/html": "^7.0.8",
-    "@storybook/html-vite": "^7.0.8",
-    "@storybook/testing-library": "^0.0.14-next.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "storybook": "^7.0.8",
     "typescript": "^5.0.2",
     "vite": "^4.3.2"
   },

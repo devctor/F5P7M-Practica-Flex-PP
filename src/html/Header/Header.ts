@@ -1,8 +1,10 @@
 import '../../../src/css/index.css'
+import '../../main.ts'
 import { createButton } from '../Button/Button';
 
 export interface HeaderProps {
   user?: { name: string };
+  onClick: () => void;
   onLogin: () => void;
   onLogout: () => void;
   onCreateAccount: () => void;
@@ -16,19 +18,24 @@ export const createHeader = ({ user, onLogout, onLogin, onCreateAccount }: Heade
 
   const logo = `
 
-<header>
+<header id="header">
   <div class="logo">
     <img src="/logo.svg" alt="logo">
   </div>
-  <nav>
+  <nav id="main-nav">
     <ul>
-      <li><a href="#">Products a</a></li>
+      <li><a href="#">Products</a></li>
       <li><a href="#">Discounts</a></li>
-      <li><a href="/"><img src="/logo.svg" alt="logo mobile"></a></li>
+      <li id="item-logo"><a href="/"><img src="/logo.svg" alt="logo mobile"></a></li>
       <li><a href="#">Our partners</a></li>
       <li><a href="#">About us</a></li>
     </ul>
   </nav>
+  <button id="nav-btn" data-variant="bare">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 6H20M4 12H20M4 18H20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
 </header>
 
 `;
@@ -56,3 +63,4 @@ export const createHeader = ({ user, onLogout, onLogin, onCreateAccount }: Heade
 
   return logo;
 };
+

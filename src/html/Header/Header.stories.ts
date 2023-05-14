@@ -19,9 +19,10 @@ const meta = {
   },
   // More on argTypes: https://storybook.js.org/docs/html/api/argtypes
   argTypes: {
-    onLogin: { action: 'onLogin' },
-    onLogout: { action: 'onLogout' },
-    onCreateAccount: { action: 'onCreateAccount' },
+    onClick: { action: 'onClick'}
+  //   onLogin: { action: 'onLogin' },
+  //   onLogout: { action: 'onLogout' },
+  //   onCreateAccount: { action: 'onCreateAccount' },
   },
 } satisfies Meta<HeaderProps>;
 
@@ -29,11 +30,11 @@ export default meta;
 type Story = StoryObj<HeaderProps>;
 
 export const LoggedIn: Story = {
-  args: {
-    user: {
-      name: 'Jane Doe',
-    },
-  },
+  // args: {
+  //   user: {
+  //     name: 'Jane Doe',
+  //   },
+  // },
 };
 
 export const LoggedOut: Story = {};
