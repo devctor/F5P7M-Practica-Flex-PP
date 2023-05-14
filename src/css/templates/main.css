@@ -3,6 +3,10 @@ main {
 }
 
 main section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
   margin: var(--p-2);
   padding: var(--p-1);
   text-align: center;
@@ -15,9 +19,16 @@ main section {
 }
 
 @media (width >= 1024px) {
+  main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   main section {
+    width:100%;
     max-width: 1536px;
-    min-height: 90vh;
     margin-inline: auto;
   }
 }

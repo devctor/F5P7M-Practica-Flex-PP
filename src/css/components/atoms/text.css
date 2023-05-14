@@ -1,9 +1,9 @@
 a {
-  text-decoration: none;
   color: var(--white);
+  text-decoration: none;
 }
 
-.nav__item {
+.nav__item, .footer__text {
   font-weight: 800;
   letter-spacing: 2px;
   text-align: center;
@@ -29,10 +29,11 @@ a {
 
 
 .card__title {
-  font-size: clamp(1rem, 6vw, 1.7rem);
   font-weight:800;
+  font-size: clamp(1rem, 6vw, 1.7rem);
 }
 
 .card__text-content {
   font-size: clamp(.9rem, 4vw, 1.2rem);
 }
+

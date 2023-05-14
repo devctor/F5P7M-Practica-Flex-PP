@@ -1,7 +1,14 @@
 body {
+  flex-direction:column;
+  height: 100vh;
   font-size: 19px;
   font-family: Montserrat, sans-serif;
   background-image: url("/bg.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+}
+
+@media (width >= 1024px) {
+  body {
+    display: flex;
+  }
 }
