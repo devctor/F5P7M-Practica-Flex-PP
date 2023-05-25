@@ -27,8 +27,7 @@ This is a solution to the Practica flex proposed challenge for Factoria F5.
 for modern web apps.
 ### Links
 
-- Solution URL: [Solution](https://github.com/devctor/tip-calculator-app-frontendmentor)
-- Live Site URL: [Live site](https://632c64ac2b8a1f2ecfbc4d20--voluble-sfogliatella-d92917.netlify.app/)
+- Live Site URL: [Live site](https://646f1239cc726b14cbe26a8d--precious-dasik-6b08b7.netlify.app/)
 
 ## My process
 
@@ -46,4 +45,4 @@ for modern web apps.
 For this project i learned to test my UI with [Playwright](https://playright.dev/) and to lint my css files with [Stylelint](https://stylelint.io/).
 
 ## Author
-- [@vevctor](https://github.com/devctor)
+- [@devctor](https://github.com/devctor)
