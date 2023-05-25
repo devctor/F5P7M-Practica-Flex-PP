@@ -9,6 +9,7 @@ This is a solution to the Practica flex proposed challenge for Factoria F5.
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Links](#links)
+    - [Instructions to run dev environment and test](#instructions-to-run-dev-environment-and-test)
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
@@ -29,6 +30,15 @@ for modern web apps.
 
 - Live Site URL: [Live site](https://646f1239cc726b14cbe26a8d--precious-dasik-6b08b7.netlify.app/)
 
+### Instructions to run dev environment and test
+
+To run on local
+  - Clone repo
+  - run: npm install
+  - run: npm run dev
+  
+To run test
+  - run: npx playwright test
 ## My process
 
 ### Built with
